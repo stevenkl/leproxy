@@ -25,12 +25,12 @@ jobs:
         fi
 
     - name: Build
-      run: GOOS=windows go build -v .
+      run: go build -v .
 
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
         # Artifact name
-        name: leproxy binary
+        name: leproxy
         # Directory containing files to upload
-        path: leproxy.exe
+        path: leproxy
