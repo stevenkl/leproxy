@@ -1,3 +1,5 @@
+[![codebeat badge](https://codebeat.co/badges/b2c3088c-dcc9-48e1-a280-56221d5fcfed)](https://codebeat.co/projects/github-com-stevenkl-leproxy-master)
+
 Command leproxy implements https reverse proxy with automatic Letsencrypt
 usage for multiple hostnames/backends
 
