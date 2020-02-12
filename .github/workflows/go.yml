@@ -28,4 +28,4 @@ jobs:
       run: go build -v .
 
     - name: Echo output
-      run: tree .
+      run: ls -R
